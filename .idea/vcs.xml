@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BkCore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BkDuel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BkGUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BkShop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/BkTeleport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ClickableRequest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/GUIConfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NMS-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PagedList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PlayerInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Teleport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TextAnimator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Workload" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nms-api" vcs="Git" />
+  </component>
+</project>

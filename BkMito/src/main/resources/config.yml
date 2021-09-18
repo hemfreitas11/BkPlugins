@@ -1,0 +1,106 @@
+language: pt_BR
+
+# {new-mito} - Nome do novo mito
+# {new-mito-kills} - Quantos players o novo mito matou, como ele é o novo mito isso é sempre 0
+# {new-mito-duration} - Quanto tempo o novo mito segurou a tag mito, como ele é o novo mito isso também sempre é 0
+# {new-mito-times} - Quantas vezes o novo mito conseguiu virar mito
+# {old-mito} - Nome do mito antigo
+# {old-mito-kills} - Quantos players o mito antigo matou enquanto era mito
+# {old-mito-duration} - Quanto tempo o mito antigo segurou a tag mito
+# {old-mito-times} - Quantas vezes o mito antigo conseguiu virar mito
+
+broadcast:
+  new-mito:
+    buttons:
+      new-mito:
+        text: '&2&n&l{new-mito}'
+        hover: '&2Clique para ver o perfil deste jogador.'
+      old-mito:
+        text: '&2&n&l{old-mito}'
+        hover: '&2Clique para ver o perfil deste jogador.'
+    message:
+    - '&a*--------------------*=/[|]\=*---------------------*'
+    - ' '
+    - '&aO jogador {new-mito-button} &amatou {old-mito-button} &ae agora é o novo Mito do PVP!'
+    - ' '
+    - '&7&oClique em um nome para ver informacoes do jogador.'
+    - '&a*------------------------------------------------*'
+
+permission-commands:
+  set:
+    - '/lp user {mito} permission set bkmito.mito'
+    - '/nte reload'
+  unset:
+    - '/lp user {mito} permission unset bkmito.mito'
+    - '/nte reload'
+
+mito-tag: '&5&l[Mito]&r'
+
+# Configs for the NPC feature. You need to have Citizens and HolographicDisplays intalled for this feature to work.
+# Configurações da função de NPC. Você precisa ter o Citizens e HolographicDisplays instalados para essa função funcionar.
+mito-npc:
+  # Disables or enables the NPC feature. To use it type '/duel npc location' then '/duel npc update'
+  # Desativa ou ativa a função NPC. Para usar digite '/x1 npc local' depois '/x1 npc atualizar'
+  enabled: true
+
+  # The text that shows up on top of the NPC
+  # O text que aparece em cima do NPC
+  hologram:
+    # How much time (in seconds) to wait before updating placeholder values in the hologram.
+    # Quanto tempo (em segundos) para esperar antes de atualizar valores placeholder no holograma.
+    placeholder-update: 5
+
+    # Set this to 'false' to disable the sword animation bellow the text
+    # Coloque 'false' para desativar a animação da espada abaixo do texto
+    sword-animation: true
+
+    # {mito} - Nome do mito atual
+    # {mito-kills} - Quantos o mito antigo matou enquanto era mito
+    # {mito-duration} - Quanto tempo o mito antigo segurou a tag mito
+    # {mito-times} - Quantas vezes o mito antigo conseguiu virar mito
+    lines:
+      - '&7&l---=[{shine purple bold text[Mito do PVP]}&7&l]=---'
+      - ''
+      - '&7&l---=[&5&l{mito}&7&l]=---'
+      - '&7&l| Matou: &5&l{mito-kills} &7&l|'
+      - '&7&l| Mito por: &5&l{mito-duration} &7&l|'
+  npc:
+    look-at-players:
+      # Set to 'false' to disable the NPC looking at players
+      # Coloque 'false' para desativar o NPC olhar para os jogadores
+      enabled: true
+
+      # The distance in blocks for the NPC to start looking at players
+      # A distancia em blocos pro NPC começar a olhar pro jogador
+      distance-to-look: 5
+    random-look-around:
+      # When there is no one near the NPC it will randomly look around. Set to 'false' to disable
+      # Quando não tem jogadores perto do NPC ele fica olhando pros lados aleatoriamente. Coloque 'false' para desativar
+      enabled: true
+      radom-look-range:
+        # How far to the LEFT the NPC will be able to turn
+        # A discancia que o NPC vai poder virar para a ESQUERDA
+        left-range: 70
+
+        # How far to the RIGHT the NPC will be able to turn
+        # A discancia que o NPC vai poder virar para a DIREITA
+        right-range: 70
+
+        # How far UP the NPC will be able to look
+        # A distancia que o NPC vai poder olhar para CIMA
+        up-range: 10
+
+        # How far DOWN the NPC will be able to look
+        # A distancia que o NPC vai poder olhar para BAIXO
+        down-range: 10
+    # The location of the NPC. Use the command '/duel npc location' to set it.
+    # O local do NPC. Use o comando '/x1 npc local' pra setar.
+    location:
+      world: 'world'
+      x: '0'
+      y: '0'
+      z: '0'
+      pitch: '0'
+      yaw: '0'
+    # Nao mude isso
+    id: 0

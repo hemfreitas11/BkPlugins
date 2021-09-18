@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BkGUI" />
+        <module name="request" />
+        <module name="bkgui" />
+        <module name="PagedList" />
+        <module name="teleport" />
+        <module name="BkCore" />
+        <module name="Teleport" />
+        <module name="ClickableRequest" />
+        <module name="bkteleport" />
+        <module name="NMS-API" />
+        <module name="textanimator" />
+        <module name="v1_8_R1" />
+        <module name="v1_8_R2" />
+        <module name="Menu" />
+        <module name="v1_13_R1" />
+        <module name="v1_8_R3" />
+        <module name="bkteste" />
+        <module name="pagedlist" />
+        <module name="BkTeleport" />
+        <module name="bkcore" />
+        <module name="workload" />
+        <module name="Workload" />
+        <module name="PlayerInput" />
+        <module name="input" />
+        <module name="v1_16_R1" />
+        <module name="v1_14_R1" />
+        <module name="GUIConfig" />
+        <module name="nms-api" />
+        <module name="v1_9_R1" />
+        <module name="TextAnimator" />
+      </profile>
+      <profile name="Annotation profile for BkPlugins-Parent" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AntiCmdTabPlus" />
+        <module name="BkMito" />
+        <module name="BkHash" />
+        <module name="BkShop" />
+        <module name="BkDuel" />
+        <module name="NMCTags" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="anticmdtabplus" target="1.8" />
+      <module name="bkhash" target="1.8" />
+      <module name="BkSom" target="1.8" />
+      <module name="bkteleport2" target="1.8" />
+      <module name="BkTeste" target="1.8" />
+      <module name="bkteste2" target="8" />
+      <module name="effect" target="6" />
+      <module name="GUIConfigCircularDependency" target="1.8" />
+      <module name="languagy.api" target="1.8" />
+      <module name="languagy.api.main" target="1.8" />
+      <module name="languagy.api.test" target="1.8" />
+      <module name="languagy.main" target="1.8" />
+      <module name="languagy.plugin" target="1.8" />
+      <module name="languagy.plugin.main" target="1.8" />
+      <module name="languagy.plugin.test" target="1.8" />
+      <module name="languagy.test" target="1.8" />
+      <module name="menu" target="1.5" />
+      <module name="newbasspawner" target="1.8" />
+      <module name="NewbasSpawner" target="1.8" />
+      <module name="nmctags" target="11.0.11" />
+      <module name="NMCTags" target="1.8" />
+      <module name="nms-v1_5" target="8" />
+      <module name="nms-v1_6_2" target="8" />
+      <module name="nms-v1_6_4" target="8" />
+      <module name="nms-v1_7_10" target="8" />
+      <module name="nms-v1_7_2" target="8" />
+      <module name="opengui" target="1.8" />
+      <module name="ParticleExample" target="1.8" />
+      <module name="title" target="1.5" />
+      <module name="v1_7_R1" target="8" />
+      <module name="v1_7_R2" target="1.5" />
+      <module name="v1_7_R3" target="8" />
+      <module name="validator" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

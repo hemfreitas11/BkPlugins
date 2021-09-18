@@ -1,0 +1,4 @@
+name: BkTeste1
+version: ${project.version}
+main: me.bkrmt.bkteste.BkTeste
+api-version: 1.13

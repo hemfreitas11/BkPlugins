@@ -1,0 +1,43 @@
+commands:
+
+  usage-format: '&cUsage: {usage}'
+
+  teste:
+    command: 'teste'
+    description: 'teste teste teste teste teste.'
+    usage: '/teste'
+gui-buttons:
+  previous-page:
+    name: '{shine red bold} Previous Page'
+    description: '&7Go back to previous page'
+  next-page:
+    name: '{shine green bold} Next Page'
+    description: '&7Go to the next page'
+info:
+  number-input:
+    go-back:
+      - '&7Click here to confirm and go back.'
+    increase:
+      name: '&7&lIncrease {amount}'
+      description:
+        - '&7Click to increase {amount}'
+    decrease:
+      name: '&7&lDecrease {amount}'
+      description:
+        - '&7Click to decrease {amount}'
+  input:
+    number: '&a&lType a number'
+    new-name: '&a&lType the new name'
+    new-item: '&a&lType the new item'
+    command:
+      title: '&a&lType the new item'
+      subtitle: '&7Use ''&e{player}&7'' &7for the player name'
+    new-lore:
+      title: '&eEnter the new lore'
+      subtitle: '&7You can start a new line with a ''&e#&7'' &7character'
+    cancel: '&7Type ''&c{cancel-input}&7''  to cancel.'
+    countdown: '&7&lCancelling in &c&l{seconds}'
+error:
+  input:
+    canceled: '&cCancelled.'
+  no-permission: '&ckjadlk jsalk lasj'

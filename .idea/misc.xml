@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.bukkit.event.EventHandler" />
+    </list>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_8/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_8_3/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_8_4/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_9/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_14/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_13/pom.xml" />
+        <option value="$PROJECT_DIR$/v1_8_R3/pom.xml" />
+        <option value="$PROJECT_DIR$/Teleport/pom.xml" />
+        <option value="$PROJECT_DIR$/Menu/pom.xml" />
+        <option value="$PROJECT_DIR$/OpenGUI/pom.xml" />
+        <option value="$PROJECT_DIR$/BkX1/pom.xml" />
+        <option value="$PROJECT_DIR$/Workload/pom.xml" />
+        <option value="$PROJECT_DIR$/BkCore/pom.xml" />
+        <option value="$PROJECT_DIR$/BkTeleport/pom.xml" />
+        <option value="$PROJECT_DIR$/BkDuel/pom.xml" />
+        <option value="$PROJECT_DIR$/bkshop/pom.xml" />
+        <option value="$PROJECT_DIR$/BkGUI/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_8_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_8_R2/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_8_R3/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_9_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_13_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_14_R1/pom.xml" />
+        <option value="$PROJECT_DIR$/NMS-API/v1_16_R1/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/BkTeleport1/pom.xml" />
+        <option value="$PROJECT_DIR$/textanimator/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

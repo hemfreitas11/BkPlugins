@@ -1,0 +1,155 @@
+#
+#  ▄▄▄▄   ██ ▄█▄▄▄█████▓█████ ██▓   ▓█████ ██▓███  ▒█████  ██▀███ ▄▄▄█████▓
+# ▓█████▄ ██▄█▒▓  ██▒ ▓▓█   ▀▓██▒   ▓█   ▀▓██░  ██▒██▒  ██▓██ ▒ ██▓  ██▒ ▓▒
+# ▒██▒ ▄█▓███▄░▒ ▓██░ ▒▒███  ▒██░   ▒███  ▓██░ ██▓▒██░  ██▓██ ░▄█ ▒ ▓██░ ▒░
+# ▒██░█▀ ▓██ █▄░ ▓██▓ ░▒▓█  ▄▒██░   ▒▓█  ▄▒██▄█▓▒ ▒██   ██▒██▀▀█▄ ░ ▓██▓ ░
+# ░▓█  ▀█▒██▒ █▄ ▒██▒ ░░▒████░██████░▒████▒██▒ ░  ░ ████▓▒░██▓ ▒██▒ ▒██▒ ░
+# ░▒▓███▀▒ ▒▒ ▓▒ ▒ ░░  ░░ ▒░ ░ ▒░▓  ░░ ▒░ ▒▓▒░ ░  ░ ▒░▒░▒░░ ▒▓ ░▒▓░ ▒ ░░
+# ▒░▒   ░░ ░▒ ▒░   ░    ░ ░  ░ ░ ▒  ░░ ░  ░▒ ░      ░ ▒ ▒░  ░▒ ░ ▒░   ░
+#  ░    ░░ ░░ ░  ░        ░    ░ ░     ░  ░░      ░ ░ ░ ▒   ░░   ░  ░
+#  ░     ░  ░             ░  ░   ░  ░  ░  ░           ░ ░    ░
+#       ░
+#
+#                 ® BkPlugins | discord.gg/2MHgyjCuPc
+#                              Made by: Bkr__
+#
+
+# You can add any language by changing the name of the file in the "lang" folder and then adding that same language in the "language" option bellow.
+# Languages that come with the plugin are: en_US and pt_BR.
+language: en_US
+
+# What you need to type to cancel the inputs in the plugin.
+cancel-input: 'cancel'
+
+# Options for the spawn command
+spawn:
+  # Disable this option if you don't want the spawn to show in the warps list.
+  show-in-warps-list: true
+  # When this option is enabled players that join the server will be sent to this plugin's spawn
+  spawn-on-join: false
+  # When this option is enabled players that respawn be sent to this plugin's spawn
+  spawn-on-respawn: false
+
+# The amount of time in seconds until a teleport request expires if it is not answered
+tp-expiration: 30
+
+# The amount of time in seconds that the player will be invulnerable to damage after a teleport
+invulnerable-time: 0
+
+# If you are using ChestCommands to create a custom warps menu, enable this option
+custom-warps-list-command:
+  enabled: false
+  # This is the command that will be executed when the warp list is sent to the player.
+  # Set it to the command that opens the warps menu in ChestCommands.
+  # It can't be "warp" or "warps", since it will interfere with this plugin
+  command: /ccwarps
+
+# When this option is false, a message with a list of the warps will be sent instead of opening a GUI (Only valid if 'chest-commands-menu' is false)
+warp-gui: true
+
+# When this option is false, a message with a list of the homes will be sent instead of opening a GUI
+home-gui: true
+
+# Teleport countdown options
+teleport-countdown:
+  # When true the plugin will make a pling sound every second of the countdown
+  use-sound: true
+  # When true the plugin will display a title with the seconds remaining
+  use-title: true
+  # When true the plugin will display an action bar with the seconds remaining
+  use-actionbar: true
+  # You can change the length of the countdown by giving a group the permission 'bkshop.countdown.<0-99>'. Example: bkshop.countdown.15 will give the group a countdown of 15 seconds
+  # When true the teleport countdown will be canceled when a player moves
+  cancel-on-move: false
+
+essentials:
+  #When this option is enabled the plugin will also save warp files to the "warps" folder in Essentials.
+  #This is not needed and you should only use this if you want to use warp signs.
+  save-warps-to-essentials: false
+  # When the plugin starts it imports homes and warps from Essentials, change to "false" to disable
+  import-from-essentials: true
+
+# Here are the commands from other plugins (Essentials, System, etc...) that will be intercepted and processed by this plugin instead
+commands:
+  spawn:
+    - /spawn
+    - /essentials:spawn
+    - /system:spawn
+
+  setspawn:
+    - /setspawn
+    - /essentials:setspawn
+    - /system:setspawn
+
+  back:
+    - /back
+    - /voltar
+    - /essentials:back
+    - /system:back
+
+  tpa:
+    - /tpa
+    - /essentials:tpa
+    - /system:tpa
+
+  tpahere:
+    - /tpahere
+    - /tpaqui
+    - /essentials:tpahere
+    - /system:tpahere
+
+  tpaccept:
+    - /tpaccept
+    - /tpaceitar
+    - /essentials:tpaccept
+    - /system:tpaccept
+
+  tpdeny:
+    - /tpdeny
+    - /tpnegar
+    - /essentials:tpdeny
+    - /system:tpdeny
+
+  home:
+    - /home
+    - /casa
+    - /essentials:home
+    - /system:home
+
+  homes:
+    - /homes
+    - /casas
+    - /essentials:homes
+    - /system:homes
+
+  sethome:
+    - /sethome
+    - /setcasa
+    - /essentials:sethome
+    - /system:sethome
+
+  delhome:
+    - /delhome
+    - /delcasa
+    - /essentials:delhome
+    - /system:delhome
+
+  warp:
+    - /warp
+    - /essentials:warp
+    - /system:warp
+
+  warps:
+    - /warps
+    - /essentials:warps
+    - /system:warps
+
+  setwarp:
+    - /setwarp
+    - /essentials:setwarp
+    - /system:setwarp
+
+  delwarp:
+    - /delwarp
+    - /essentials:delwarp
+    - /system:delwarp

@@ -1,0 +1,163 @@
+commands:
+  help-format:
+    header: '&7*----------------*=/[&6&lBkMito&7]\=*----------------*'
+    help-section: '&7- &a{command} &f- &7{description}'
+    footer: '&7*-----------------*=[&aFeito por: Bkr__&7]=*---------------*'
+
+  usage-format: '&cUse: {usage}'
+
+  bkcommand:
+    command: 'bkmito'
+    description: 'Ajuda do Plugin.'
+    usage: '/bkmito [config | messages | reload]'
+    subcommands:
+      config:
+        command: 'config'
+        usage: '/bkmito config'
+      reload:
+        command: 'reload'
+        usage: '/bkmito reload'
+      messages:
+        command: 'messages'
+        usage: '/bkmito messages'
+
+  mito:
+    command: 'mito'
+    description: 'Comando principal do plugin.'
+    usage: '/mito <{subcommands}>'
+    subcommands:
+      stats:
+        command: 'stats'
+        usage: '/mito stats [player]'
+      setar:
+        command: 'setar'
+        usage: '/mito setar [player]'
+      npc:
+        command: 'npc'
+        usage: '/mito npc [local | atualizar]'
+        subcommands:
+          location:
+            command: 'local'
+            usage: '/mito npc local'
+          update:
+            command: 'atualizar'
+            usage: '/mito npc atualizar'
+gui-buttons:
+  mitos-list:
+    current-mito:
+      title: "&8&lMito Atual"
+      name: '&2&l{player}'
+      description:
+        - ' '
+        - '&aMito do PVP atual'
+        - ' '
+        - '&7&oClique para abrir seus status.'
+    old-mitos:
+      title: "&8&lMitos Anteriores"
+      name: '&a&l{player}'
+      description:
+        - ' '
+        - '&aEste jogador foi Mito do PVP anteriormente'
+        - ' '
+        - '&7&oClique para abrir seus status.'
+    old-mitos-button:
+      name: '{shine green bold} Ver Mitos Anteriores'
+      description:
+        - ' '
+        - '&7&oClique para ver informações dos mitos anteriores.'
+    current-mito-button:
+      name: '{shine green bold} Ver Mito Atual'
+      description:
+        - ' '
+        - '&7&oClique para ver informações do mito atual.'
+  player-profile:
+    head:
+      name: '{shine lightgreen bold size[2] speed[3]} {player}'
+      description:
+        is-mito:
+          - ' '
+          - '&aMito do PVP.'
+        not-mito:
+          - ' '
+          - '&cNão é o Mito do PVP atualmente.'
+
+    kills:
+      name: '{shine lightgreen} Jogadores Mortos'
+      description:
+        is-mito:
+          - '&7Matou &a{kills} &7desde que virou o mito.'
+        not-mito:
+          - '&7Matou &a{kills} &7na última vez que foi mito.'
+    mito-amount:
+      name: '{shine lightgreen} Vezes Mito'
+      description:
+        is-mito:
+          - '&7Se tornou mito &a{mito-amount} &7vez(es).'
+        not-mito:
+          - '&7Se tornou mito &a{mito-amount} &7vez(es).'
+    mito-time:
+      name: '{shine lightgreen} Tempo Mito'
+      description:
+        is-mito:
+          - '&7Tempo desde que virou Mito: &a{mito-time}&7.'
+        not-mito:
+          - '&7Manteve o mito por &a{mito-time}&7 na última vez que foi mito.'
+
+  close-button:
+    name: '&cFechar Menu'
+    description: '&7Clique para fechar esse menu.'
+
+  next-page:
+    name: '{shine lightgreen bold speed[3]} Próxima Página'
+    description: '&7Ir para página &a{page-number}'
+
+  previous-page:
+    name: '{shine lightred bold speed[3]} Página Anterior'
+    description: '&7Ir para página &c{page-number}'
+
+info:
+  configs-reloaded: '&aConfigurações e mensagens recarregadas com sucesso!'
+  player-profile-title: '&8&lPerfil do Jogador'
+  location-set: '&aLocal setado!'
+  mito-set: '&aO mito do pvp agora é {player}!'
+  number-input:
+    go-back:
+      - '&7Click here to confirm and go back.'
+    increase:
+      name: '&7&lIncrease {amount}'
+      description:
+        - '&7Click to increase {amount}'
+    decrease:
+      name: '&7&lDecrease {amount}'
+      description:
+        - '&7Click to decrease {amount}'
+  time:
+    and: 'e'
+    years:
+      single: 'ano'
+      plural: 'anos'
+    months:
+      single: 'mês'
+      plural: 'meses'
+    weeks:
+      single: 'semana'
+      plural: 'semanas'
+    days:
+      single: 'dia'
+      plural: 'dias'
+    hours:
+      single: 'hora'
+      plural: 'horas'
+    minutes:
+      single: 'minuto'
+      plural: 'minutos'
+    seconds:
+      single: 'segundo'
+      plural: 'segundos'
+
+error:
+  no-stats: '&cO jogador &4{player} &cnunca foi Mito do pvp.'
+  not-set: '&cNão foi possivel setar o mito porque esse jogador já é o mito ou o MitoChangeEvent foi cancelado.'
+  invalid-mito: '&cO servidor não possui um mito do pvp.'
+  invalid-player: '&cO jogador &4{player} &cnão está online.'
+  no-permission: '&cVocê não tem permissão para fazer isso.'
