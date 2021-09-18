@@ -1,0 +1,6 @@
+name: BkSom
+version: ${project.version}
+main: me.bkrmt.bksom.BkSom
+api-version: 1.17
+authors: [ Bkr__ ]
+description: Mandar som para todos

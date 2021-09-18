@@ -1,0 +1,23 @@
+titulo-do-menu: '&5&lAlterar Spawner {current-page}/{total-pages}'
+
+gui-buttons:
+  next-page:
+    name: '{shine green bold}Proxima Pagina'
+    description: '&7Ir para a pagina &a{page-number}'
+  previous-page:
+    name: '{shine red bold}Pagina Anterior'
+    description: '&7Ir para a pagina &c{page-number}'
+
+mensagens:
+  confirmar:
+    titulo: '&8&lTem certeza?'
+    aceitar: '{shine green bold}Sim'
+    recusar: '{shine red bold}Não'
+    descricao: '{shine red}Tem certeza que deseja trocar o spawner?'
+    cancelado: '&cCancelado.'
+  spawner-trocado: '&aVocê pagou &a&l{preco} &ae trocou o spawner para &a&l{novo}&a!'
+  sem-dinheiro: '&cVocê não tem dinheiro suficiente para fazer isso.'
+  spawner-de-outro: '&cVoce nao tem permissao para alterar o spawner de outros jogadores.'
+
+error:
+  no-permission: '&cVocê não tem permissão para fazer isso.'

@@ -1,0 +1,1565 @@
+spawners:
+  creeper:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo10} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12123
+  skeleton:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  spider:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  zombie:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  slime:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  ghast:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  piglin:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  piglin_brute:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  cave_spider:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  silverfish:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  blaze:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  magma_cube:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  ender_dragon:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  wither:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  bat:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  witch:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  pig:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  sheep:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  cow:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  chicken:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  squid:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  wolf:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  mushroom_cow:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  snowman:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  ocelot:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  iron_golem:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  horse:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  bee:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  cat:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  cod:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  dolphin:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  donkey:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  drowned:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  elder_guardian:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  endermite:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  evoker:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  fox:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  giant:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  guardian:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  hoglin:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  husk:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  illusioner:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  llama:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  mule:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  panda:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  parrot:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  phantom:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  pillager:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  polar_bear:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  pufferfish:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  rabbit:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  ravager:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  salmon:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  shulker:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  skeleton_horse:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  strider:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  trader_llama:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  tropical_fish:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  turtle:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  vex:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  villager:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  vindicator:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  wandering_trader:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  wither_skeleton:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  zoglin:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  zombie_horse:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  zombie_villager:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12
+  zombified_piglin:
+    ativar: true
+    nome: '&eSpawner de {shine purple text[{spawner}]}'
+    lore:
+      - '&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-&9&l-&b&l-'
+      - '&7Preço:'
+      - '&6{padrao} Coins'
+      - '&7Preço Vip:'
+      - '&6{grupo1} Coins'
+      - '&7Seu Preço:'
+      - '&6{mais-barato} Coins'
+    grupos:
+      padrao: 1000
+      grupo1: 150
+      grupo2: 12
+      grupo3: 12
+      grupo4: 12
+      grupo5: 12
+      grupo6: 12
+      grupo7: 12
+      grupo8: 12
+      grupo9: 12
+      grupo10: 12

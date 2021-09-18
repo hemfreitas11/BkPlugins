@@ -12,12 +12,20 @@
     <name>BkMito</name>
 
     <description>Plugin de mito</description>
+
+    <parent>
+        <groupId>me.bkrmt</groupId>
+        <artifactId>orders</artifactId>
+        <version>ORDERS-PARENT</version>
+    </parent>
+
     <properties>
         <myPath>D:/Servidores/svteste/plugins/${project.build.finalName}.jar</myPath>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
+
     <repositories>
         <repository>
             <id>codemc-repo</id>
@@ -42,7 +50,7 @@
     </repositories>
 
     <build>
-        <directory>../target</directory>
+        <directory>../../target</directory>
         <finalName>BkMito</finalName>
         <resources>
             <resource>
@@ -179,41 +187,6 @@
             <groupId>me.bkrmt</groupId>
             <artifactId>v1_8_R2</artifactId>
             <version>v1_8_R2</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>v1_8_R3</artifactId>
-            <version>v1_8_R3</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>v1_9_R1</artifactId>
-            <version>v1_9_R1</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>v1_13_R1</artifactId>
-            <version>v1_13_R1</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>v1_14_R1</artifactId>
-            <version>v1_14_R1</version>
-            <type>jar</type>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>me.bkrmt</groupId>
-            <artifactId>v1_16_R1</artifactId>
-            <version>v1_16_R1</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>

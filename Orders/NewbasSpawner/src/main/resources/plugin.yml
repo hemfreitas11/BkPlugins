@@ -1,0 +1,11 @@
+name: NewbasSpawner
+version: ${project.version}
+main: me.bkrmt.newbasspawner.NewbasSpawner
+softdepend:
+  - Vault
+  - RedProtect
+  - LuckPerms
+  - GemsEconomy
+api-version: 1.16
+authors: [ Bkr__ ]
+description: Plugin Spawner

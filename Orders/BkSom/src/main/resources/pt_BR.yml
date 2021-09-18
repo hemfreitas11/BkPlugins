@@ -1,0 +1,19 @@
+commands:
+
+  usage-format: '&cUsage: {usage}'
+
+  bksom:
+    command: 'bksom'
+    description: 'Mandar som para todos.'
+    usage: '/bksom <todos | nome_do_player> <som> <volume> <grave> [repeticoes] [espera]'
+
+info:
+  sons-parados: '&aSons parados com sucesso.'
+
+error:
+  som-invalido: '&cVoce digitou um som invalido.'
+  repetir-invalido: '&cVoce digitou um numero de repeticao invalido.'
+  espera-invalido: '&cVoce digitou um numero de espera invalido.'
+  volume-invalido: '&cVoce digitou um volume invalido. Use um numero de 0.0 a 1.0'
+  grave-invalido: '&cVoce digitou um grave invalido. Use um numero de 0.0 a 1.0'
+  no-permission: '&cVoce nao tem permissao para fazer isso.'

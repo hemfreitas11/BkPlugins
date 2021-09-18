@@ -12,6 +12,32 @@
     <mapping directory="$PROJECT_DIR$/NMS-API" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PagedList" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/PlayerInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/BkCore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/ClickableRequest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/BkGUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/ClickableRequest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/GUIConfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/PagedList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/PlayerInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/Teleport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/TextAnimator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extra/Workload" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/BkGUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/ClickableRequest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/GUIConfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/PagedList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/PlayerInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/Teleport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/TextAnimator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Extras/Workload" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/GUIConfig" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/NMS-API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/PagedList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/PlayerInput" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Teleport" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/TextAnimator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Plugin-Core/Workload" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Teleport" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TextAnimator" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Workload" vcs="Git" />

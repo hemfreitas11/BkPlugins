@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>me.bkrmt</groupId>
+    <artifactId>bksom</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>BkSom</name>
+
+    <description>Som com comando</description>
+
+    <parent>
+        <groupId>me.bkrmt</groupId>
+        <artifactId>orders</artifactId>
+        <version>ORDERS-PARENT</version>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <build>
+        <directory>../target</directory>
+        <finalName>BkSom</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <!--                            <outputFile>D:/Servidores/svteste/${project.build.finalName}.jar</outputFile>-->
+                            <outputFile>D:/Servidores/svteste/plugins/${project.build.finalName}.jar</outputFile>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <relocations>
+                                <relocation>
+                                    <pattern>me.bkrmt.bkcore</pattern>
+                                    <shadedPattern>me.bkrmt.${project.artifactId}.bkcore</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>me.bkrmt.teleport</pattern>
+                                    <shadedPattern>me.bkrmt.${project.artifactId}.bkcore.teleport</shadedPattern>
+                                    <excludes>
+                                        <exclude>me.bkrmt.teleport.TeleportCore</exclude>
+                                        <exclude>me.bkrmt.teleport.CancelCause</exclude>
+                                    </excludes>
+                                </relocation>
+                                <relocation>
+                                    <pattern>me.bkrmt.nms</pattern>
+                                    <shadedPattern>me.bkrmt.${project.artifactId}.nms</shadedPattern>
+                                </relocation>
+                            </relocations>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.17-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>me.bkrmt</groupId>
+            <artifactId>bkcore</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>

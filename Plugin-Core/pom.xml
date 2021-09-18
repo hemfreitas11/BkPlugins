@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.bkrmt</groupId>
-    <artifactId>bkplugins-parent</artifactId>
+    <artifactId>plugin-core</artifactId>
     <packaging>pom</packaging>
-    <version>parent</version>
-    <name>BkPlugins</name>
+    <name>Plugin-Core</name>
+    <version>CORE-PARENT</version>
 
     <properties>
         <java.version>1.8</java.version>
@@ -37,13 +36,14 @@
     </build>
 
     <modules>
-        <module>Plugin-Core</module>
-        <module>BkDuel</module>
-<!--        <module>BkTeleport</module>-->
-<!--        <module>BkShop</module>-->
-<!--        <module>BkTeste</module>-->
-<!--        <module>Orders/BkSom</module>-->
-<!--        <module>Orders/NewbasSpawner</module>-->
-<!--        <module>Orders/BkMito</module>-->
+        <module>Core</module>
+        <module>Extras</module>
+        <module>NMS-API</module>
     </modules>
+
+    <parent>
+        <groupId>me.bkrmt</groupId>
+        <artifactId>bkplugins-parent</artifactId>
+        <version>parent</version>
+    </parent>
 </project>

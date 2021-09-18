@@ -12,17 +12,17 @@
         <module name="bkgui" />
         <module name="PagedList" />
         <module name="teleport" />
-        <module name="BkCore" />
         <module name="Teleport" />
         <module name="ClickableRequest" />
         <module name="bkteleport" />
-        <module name="NMS-API" />
         <module name="textanimator" />
         <module name="v1_8_R1" />
         <module name="v1_8_R2" />
         <module name="Menu" />
         <module name="v1_13_R1" />
+        <module name="api" />
         <module name="v1_8_R3" />
+        <module name="Core" />
         <module name="bkteste" />
         <module name="pagedlist" />
         <module name="BkTeleport" />
@@ -34,26 +34,34 @@
         <module name="v1_16_R1" />
         <module name="v1_14_R1" />
         <module name="GUIConfig" />
-        <module name="nms-api" />
         <module name="v1_9_R1" />
         <module name="TextAnimator" />
       </profile>
-      <profile name="Annotation profile for BkPlugins-Parent" enabled="true">
+      <profile name="Annotation profile for BkMito" enabled="true">
+        <sourceOutputDir name="../../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BkMito" />
+      </profile>
+      <profile name="Annotation profile for BkPlugins" enabled="true">
         <sourceOutputDir name="../target/generated-sources/annotations" />
         <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AntiCmdTabPlus" />
-        <module name="BkMito" />
         <module name="BkHash" />
-        <module name="BkShop" />
         <module name="BkDuel" />
+        <module name="BkShop" />
+        <module name="newbasspawner" />
         <module name="NMCTags" />
+        <module name="bksom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="anticmdtabplus" target="1.8" />
       <module name="bkhash" target="1.8" />
+      <module name="BkMito" target="1.8" />
       <module name="BkSom" target="1.8" />
+      <module name="bksom" target="1.8" />
       <module name="bkteleport2" target="1.8" />
       <module name="BkTeste" target="1.8" />
       <module name="bkteste2" target="8" />
@@ -78,6 +86,7 @@
       <module name="nms-v1_7_10" target="8" />
       <module name="nms-v1_7_2" target="8" />
       <module name="opengui" target="1.8" />
+      <module name="orders" target="1.8" />
       <module name="ParticleExample" target="1.8" />
       <module name="title" target="1.5" />
       <module name="v1_7_R1" target="8" />

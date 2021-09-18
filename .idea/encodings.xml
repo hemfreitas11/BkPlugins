@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/BkCore/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkDuel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkDuel/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BkGUI/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BkGUI/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BkMito/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BkMito/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkShop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkShop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkTeleport/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkTeleport/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/BkTeste/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ClickableRequest/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/GUIConfig/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_13_R1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_14_R1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_16_R1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_8_R1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_8_R2/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_8_R3/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NMS-API/v1_9_R1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PagedList/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/PlayerInput/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Teleport/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/TextAnimator/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Workload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/BkMito/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/BkMito/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/BkSom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/BkSom/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/NewbasSpawner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Orders/NewbasSpawner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/BkGUI/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/BkGUI/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/ClickableRequest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/GUIConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/PagedList/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/PlayerInput/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/Teleport/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/TextAnimator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/Extras/Workload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_13_R1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_14_R1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_16_R1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_8_R1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_8_R2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_8_R3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Plugin-Core/NMS-API/v1_9_R1/src/main/java" charset="UTF-8" />
   </component>
 </project>

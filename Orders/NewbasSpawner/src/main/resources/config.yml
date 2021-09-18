@@ -1,0 +1,9 @@
+language: pt_BR
+
+efeitos:
+  ativar: true
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Particle.html
+  efeito: VILLAGER_HAPPY
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  som: BLOCK_FIRE_EXTINGUISH
+tamanho-do-menu: 4
