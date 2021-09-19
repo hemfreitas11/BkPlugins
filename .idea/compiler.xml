@@ -59,7 +59,6 @@
     <bytecodeTargetLevel>
       <module name="anticmdtabplus" target="1.8" />
       <module name="bkhash" target="1.8" />
-      <module name="BkMito" target="1.8" />
       <module name="BkSom" target="1.8" />
       <module name="bksom" target="1.8" />
       <module name="bkteleport2" target="1.8" />
@@ -86,7 +85,6 @@
       <module name="nms-v1_7_10" target="8" />
       <module name="nms-v1_7_2" target="8" />
       <module name="opengui" target="1.8" />
-      <module name="orders" target="1.8" />
       <module name="ParticleExample" target="1.8" />
       <module name="title" target="1.5" />
       <module name="v1_7_R1" target="8" />
